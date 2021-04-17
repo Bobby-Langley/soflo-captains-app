@@ -24,9 +24,9 @@ function App() {
         <Router>
           <Layout>
             <Header style={{ color: "black" }}>This will be the header</Header>
-            <Row>
-              <Col>
-                <Content>
+            <Row justify="space-around">
+            <Col span={24}>
+                <Content style={{ padding: "24px", minHeight: "80vh"  }}>
                   <Switch>
                     <Route path="/login" component={Login} />
                     <Route path="/signup" component={SignUp} />
