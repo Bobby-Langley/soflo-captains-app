@@ -16,7 +16,7 @@ function Weather(){
       data={data}
       lang="en"
       locationLabel="West Palm Beach"
-      unitsLabels={{ temperature: 'F', windSpeed: 'Mp/h' }}
+      unitsLabels={{ temperature: '°F', windSpeed: 'Mp/h' }}
       showForecast
     />
   );
